@@ -1,0 +1,40 @@
+counter:
+  left: 0
+env:
+  debug: false
+  out-put-count: true
+  proxy: false
+header:
+  accept: '*/*'
+  accept-encoding: gzip, deflate
+  accept-language: zh-CN,zh;q=0.9
+  connection: keep-alive
+  host: 192.168.15.121
+  origin: http://192.168.15.121
+  referer: http://192.168.15.121/portal/login
+  user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+    like Gecko) Chrome/65.0.3325.181 Safari/537.36
+login-form:
+  browser-name: chrome 65.0.3325.181
+  force-change: 0
+  os-name: Windows 10
+  request-url: /portal/login
+url:
+  local-ip: 192.168.x.x
+  login-api: http://192.168.15.121/api/portal/login
+  login-out-url: http://192.168.15.121/portal/logout?pwdtip=
+  login-url: http://192.168.15.121/portal/login
+  nat-api: http://192.168.15.121/api/devauth/nat
+user:
+  pwd: 1234
+  user-name: 小红
+zap:
+  director: log
+  encode-level: LowercaseColorLevelEncoder
+  format: console
+  level: info
+  link-name: latest_log
+  log-in-console: true
+  prefix: '[Logger]'
+  showline: true
+  stacktrace-key: stacktrace
